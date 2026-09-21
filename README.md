@@ -70,7 +70,7 @@ Both $\hat{\mu}$ and $\hat{\Sigma}$ feed the same SLSQP-solved long-only utility
 A few things to call out:
 
 - **Sharpe.** Black-Litterman beats Markowitz by 22 Sharpe points and edges out SPY by 2. Markowitz is the worst risk-adjusted strategy of the four, despite having the highest in-sample mean returns plugged into it.
-- **Drawdown.** Markowitz drew down 33%, mostly from a 2022 oil-sector concentration that reversed. Black-Litterman drew down 19%, a 41% smaller max drawdown for a comparable return.
+- **Drawdown.** Markowitz drew down 33%, holding technology as its largest position throughout the 2022 fall (XLK at 0.59 to 0.76 from June to August 2022, `results/weights_mvo.csv`). It only rotated into energy from the January 2023 decision, after the drawdown. Black-Litterman drew down 19%, a 41% smaller max drawdown for a comparable return.
 - **Concentration.** The Herfindahl index (sum of squared weights) is 0.83 for Markowitz and 0.21 for Black-Litterman. Markowitz holds a median of one sector per month; Black-Litterman holds a median of nine.
 - **Turnover.** Markowitz turnover looks low (10%) only because it parks in the same single sector for stretches at a time, then jumps when the in-sample mean leader changes. Black-Litterman's 18% reflects gradual rebalancing across a diversified set.
 

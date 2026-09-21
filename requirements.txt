@@ -8,3 +8,4 @@ seaborn>=0.13
 pyarrow>=14.0
 jupyter>=1.0
 streamlit>=1.30
+plotly>=5.20
