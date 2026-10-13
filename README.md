@@ -1,4 +1,16 @@
-# Black-Litterman vs. Mean-Variance
+<p align="center">
+  <img src="docs/banner.png" alt="stable-sharpe: Black-Litterman vs mean-variance on ten sector ETFs. A walk-forward backtest, October 2018 to December 2025." width="800">
+</p>
+
+<p align="center">
+  <img src="docs/how-it-works.png" alt="How stable-sharpe works: prices for 10 sector ETFs from Yahoo, Ledoit-Wolf shrinkage covariance, Markowitz and Black-Litterman portfolios, and a backtest over 86 out-of-sample months" width="800">
+</p>
+
+**[Open the live dashboard](https://stable-sharpe.streamlit.app)**
+
+Compare two ways to build a portfolio of ten S&P 500 sector ETFs, with the same data and the same constraint.
+
+## Black-Litterman vs. Mean-Variance
 
 A Python implementation comparing Markowitz mean-variance optimisation against the Black-Litterman model on ten S&P 500 sector ETFs, with a walk-forward backtest from October 2018 through December 2025. The Black-Litterman portfolio earns a higher Sharpe ratio (0.86 vs 0.64) with a 41% smaller maximum drawdown and 4× lower portfolio concentration than naive Markowitz.
 
